@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(media/image1.jpeg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.block1{
+    padding-top: 28vh;
+}
+.block1 .title{
+    left: 10px;
+    font-family: "Inter";
+    font-size: 2.3em;
+    color: rgb(26, 143, 137);
+    text-align: left;
+    margin-left: 5vh;
+}
+.block1 .paragraph{
+    left: 60px;
+    font-family: "Inter";
+    padding: 20px;
+    margin-left: 10vh;
+}
+.block1 .button{
+    padding: 10px 25px;
+    background: rgb(21, 117, 113);
+    display: inline-block;
+    margin-top: 20px;
+}
+.block1 .button a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.block2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(10, 107, 102);
+    justify-content: space-between;
+    padding: 60px;
+    gap: 60px;
+}
+.box1 img, .box2 img, .box3 img{
+    height: 40vh;
+}
+.box1 .title, .box2 .title, .box3 .title{
+    font-family: "Inter";
+    color: white;
+    font-size: 20px;
+    margin: 10px 15px;
+}
+.box1 .paragraph, .box2 .paragraph, .box3 .paragraph{
+    font-family: "Inter";
+    font-size: 15px;
+    margin: 10px 15px;
+}
+.box1 .button, .box2 .button, .box3 .button{
+    padding: 10px 25px;
+    background: rgb(14, 78, 76);
+    display: inline-block;
+    margin-top: 20px;
+}
+.box1 .button a, .box2 .button a, .box3 .button a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.box1, .box2, .box3{
+    background-color: rgb(17, 155, 148);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.newsletter{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: white;
+}
+.leftblock{
+    padding: 100px 10px;
+}
+.leftblock h3{
+    font-family: "Inter";
+    color: lightseagreen;
+    font-size: 3em;
+    margin: 5px 15px;
+}
+.leftblock p{
+    font-family: "Inter";
+    font-size: 15px;
+    margin: 30px 50px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 50px;
+}
+
+#email {
+    width: 80vh;
+    height: 30px;
+    border: 4px solid lightseagreen;
+    padding-left: 5px;
+}
+
+.button {
+    background: rgb(21, 117, 113);
+    padding: 10px 40px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter";
+}

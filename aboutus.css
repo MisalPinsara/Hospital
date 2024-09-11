@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.block1{
+    padding-top: 28vh;
+    width: 100%;
+    background-color: rgb(21, 117, 113);
+}
+.block1 .title{
+    font-family: "Inter";
+    font-size: 3em;
+    color: white;
+    text-align: left;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.block1 .paragraph2{
+    font-family: "Inter";
+    font-size: 1em;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 5%;
+}
+
+.block2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 4%;
+    gap: 4%;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.block2 .title{
+    font-family: "Inter";
+    font-size: 3em;
+    color: rgb(21, 117, 113);
+    text-align: left;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.block2 .paragraph1{
+    font-family: "Inter";
+    font-size: 1em;
+    text-align: center;
+}
+.block3{
+    background-color: rgb(21, 117, 113);
+}
+.block3 svg{
+    margin-left: 47%;
+    padding-top: 2%;
+}
+.block3 .title{
+    font-family: "Inter";
+    font-size: 3em;
+    color: white;
+    text-align: left;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.block3 .paragraph1{
+    font-family: "Inter";
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 5%;
+}
+iframe{
+    width: 100%;
+}
+.newsletter{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: white;
+}
+.leftblock{
+    padding: 100px 10px;
+}
+.leftblock h3{
+    font-family: "Inter";
+    color: lightseagreen;
+    font-size: 3em;
+    margin: 5px 15px;
+}
+.leftblock p{
+    font-family: "Inter";
+    font-size: 15px;
+    margin: 30px 50px;
+}
+.leftblock .container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 50px;
+}
+#Email {
+    width: 80vh;
+    height: 30px;
+    border: 4px solid lightseagreen;
+    padding-left: 5px;
+}
+.leftblock .container .button {
+    background: rgb(21, 117, 113);
+    padding: 10px 40px;
+}
+.leftblock .container .button a {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter";
+}
